@@ -1,6 +1,8 @@
 ﻿namespace crudApi.Controllers;
 
 using Microsoft.AspNetCore.Mvc;
+using crudApi.Services;
+using crudApi.Models.Users;
 
 [ApiController]
 [Route("[controller]")]

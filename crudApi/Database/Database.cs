@@ -4,7 +4,7 @@ namespace crudApi.database
 {
     public class Database : IDisposable
     {
-        public MySqlConnection Connection { get; private set; }
+        public MySqlConnection Connection { get;}
 
         public Database(string connectionString)
         {

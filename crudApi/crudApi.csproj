@@ -7,15 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Azure.Core" Version="1.35.0" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.18.0" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Community.Core.EnterpriseLibrary" Version="2.23.8.25" />
+    <PackageReference Include="Dapper" Version="2.1.11" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.12" />
+    <PackageReference Include="Microsoft.SharePoint.Client.dll" Version="15.0.4420.1017" />
+    <PackageReference Include="Microsoft.SharePoint.Client.Latest" Version="2.0.0" />
+    <PackageReference Include="Microsoft.SharePointOnline.CSOM" Version="16.1.24009.12000" />
+    <PackageReference Include="MySql.Data" Version="8.1.0" />
     <PackageReference Include="MySqlConnector" Version="2.2.7" />
+    <PackageReference Include="netfx-System.AppDomainData" Version="1.1.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Models\Users\" />
-    <Folder Include="Helpers\" />
-    <Folder Include="Repository\" />
   </ItemGroup>
 
 </Project>
